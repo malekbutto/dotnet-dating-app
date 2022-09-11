@@ -6,7 +6,7 @@
     * how will we pass the configuration to our options in our strartup class?
     * go to Startup.cs
 
-- to create a DB lets install a tool:
+- to create a DB lets install a tool: 
     * go to nuget.org and search for dotnet-ef
     * run the global command (or local if not working)
 
