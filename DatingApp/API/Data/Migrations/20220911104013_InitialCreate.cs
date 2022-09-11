@@ -8,7 +8,7 @@ namespace API.Data.Migrations
         {
             migrationBuilder.CreateTable(
                 name: "Users",
-                columns: table => new
+                columns: table => new 
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
