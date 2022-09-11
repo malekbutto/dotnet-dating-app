@@ -24,7 +24,7 @@ namespace API.Data.Migrations
                     b.Property<string>("UserName")
                         .HasColumnType("TEXT");
 
-                    b.HasKey("Id");
+                    b.HasKey("Id"); 
 
                     b.ToTable("Users");
                 });
