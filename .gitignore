@@ -105,3 +105,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+##
+## Visual Stuio Code
+##
+
+appsettings.json
