@@ -10,6 +10,7 @@ goals:
 8. services in C#
 9. middleware
 10. extension methods - DRY
+
 when we want to start an app where do we start?
 what the app actually do?
 we start with requirements, we build a social app so... user should be able to:
