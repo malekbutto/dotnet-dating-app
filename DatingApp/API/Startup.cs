@@ -36,6 +36,7 @@ namespace API
             //AddTransient: dies (disposed) on method finishing, creates every time they are injected or requested.
 
             services.AddScoped<ITokenService, TokenService>();
+            
             services.AddDbContext<DataContext>(optiones => {
                 optiones.UseSqlite(_config.GetConnectionString("DefaultConnection"));
             });
